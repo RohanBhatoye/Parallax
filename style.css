@@ -1,0 +1,118 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+
+
+}
+
+.wonder0{
+    background-image: url(sevwonders/taj.jpg);
+    min-height: 100%;
+    
+}
+.wonder1{
+    background-image: url(sevwonders/Chichen\ Itza.jpg);
+    min-height: 600px;
+    
+}
+.wonder2{
+    background-image: url(sevwonders/Great\ wall.jpg);
+    min-height: 600px;
+    
+}
+.wonder3{
+    background-image: url(sevwonders/christ.png);
+    min-height: 600px;
+    
+}
+.wonder4{
+    background-image: url(sevwonders/machu.jpg);
+    min-height: 600px;
+    
+}
+.wonder5{
+    background-image: url(sevwonders/petra.jpg);
+    min-height: 600px;
+    
+}
+.wonder6{
+    background-image: url(sevwonders/roman.jpg);
+    min-height: 800px;
+    
+}
+
+.wonder7{
+    background-image: url(sevwonders/taj\ mahal3.jpg);
+    min-height: 800px;
+    
+}
+
+.wonder0,.wonder1,.wonder2,.wonder3,.wonder4,.wonder5,.wonder6,.wonder7{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text0{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
+    font-size: 120%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 600px){
+    .text0{
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .text0{
+        padding: 0;
+    }
+}
+
+.title{
+    background-color: black;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 350px){
+    .title{
+        padding: 10px;
+    }
+}
+
+
+
+@media (width: 400px){
+    .title{
+        padding: 15px
+    }
+}
+
+.article{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #333232;
+    color: whitesmoke;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    .article {
+        padding: 20px;
+        font-size: 15px;
+    }
+}
